@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+azure:
+  servicebus:
+    connection-string: Endpoint=sb://springbootdemo.servicebus.windows.net/;SharedAccessKeyName=Root<amagedSharedAccessKey;SharedAccessKey=CWG1cruUWBfHZSQf9HF4GIVox2Nn5c2gc+ASbP0zL8c=
+    queue-name: notificationss
+
+logging:
+  level:
+    root: INFO
+    com.example.azuresbdemo: DEBUG
+

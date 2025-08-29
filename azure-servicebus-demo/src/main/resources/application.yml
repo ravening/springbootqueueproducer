@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: azure-servicebus-demo
+
+azure:
+  servicebus:
+    # You can set these values here or via environment variables:
+    # AZURE_SERVICEBUS_CONNECTION_STRING and AZURE_SERVICEBUS_QUEUE_NAME
+    connection-string: "${AZURE_SERVICEBUS_CONNECTION_STRING:}"
+    queue-name: "${AZURE_SERVICEBUS_QUEUE_NAME:my-queue}"
+server:
+  port: 8080
