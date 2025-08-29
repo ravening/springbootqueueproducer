@@ -3,8 +3,8 @@ server:
 
 azure:
   servicebus:
-    connection-string: Endpoint=sb://springbootdemo.servicebus.windows.net/;SharedAccessKeyName=Root<amagedSharedAccessKey;SharedAccessKey=CWG1cruUWBfHZSQf9HF4GIVox2Nn5c2gc+ASbP0zL8c=
-    queue-name: notificationss
+    connection-string: 
+    queue-name: 
 
 logging:
   level:
